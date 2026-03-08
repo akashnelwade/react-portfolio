@@ -1,0 +1,23 @@
+/*    CERTIFICATIONS  */
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px,1fr));
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.cert-card {
+  background: var(--card-bg);
+  padding: 25px;
+  border-radius: 20px ;
+  border: 2px solid var(--accent);
+  box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  text-align: left;
+}
+
+.cert-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 45px rgba(12, 19, 214, 0.834);
+}

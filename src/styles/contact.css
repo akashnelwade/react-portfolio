@@ -1,0 +1,86 @@
+/*  CONTACT SECTION */
+
+.contact {
+  text-align: center;
+  padding-top: 0 px;
+}
+
+/* CONTACT CARDS */
+
+.contact-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 28px;
+  margin: 50px 0;
+}
+
+.contact-card {
+  padding: 2px;
+  border-radius: 16px;
+  background: var(--card-bg);
+  text-align: center;
+  text-decoration: none;
+  color: var(--text-color);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 18px 45px rgba(0, 0, 0, 0.15);
+}
+
+/* Icon */
+.contact-icon {
+  font-size: 28px;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+/*  CONTACT FORM */
+
+.contact-form {
+  max-width: 650px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Row inputs */
+.form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+/* Inputs */
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  border-radius: 10px;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--text-color);
+  font-size: 15px;
+  outline: none;
+}
+
+/* Focus effect */
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: var(--accent);
+ box-shadow: 0 20px 45px rgba(12, 19, 214, 0.834);
+}
+
+/* Button */
+.contact-btn {
+  align-self: center;
+  padding: 12px 26px;
+  cursor: pointer;
+}
