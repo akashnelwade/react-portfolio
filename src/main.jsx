@@ -11,7 +11,7 @@ import './styles/contact.css'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
+  <BrowserRouter>
     <App />
   </BrowserRouter>
 )

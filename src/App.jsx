@@ -29,7 +29,7 @@ export default function App() {
       </section>
 
 
-      <section id="certification">
+      <section id="certifications">
         <Certifications />
       </section>
 

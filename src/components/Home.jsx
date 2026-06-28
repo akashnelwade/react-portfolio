@@ -7,19 +7,22 @@ export default function Home() {
 
       <img src={profile} alt="Akash profile" className="profile-img" />
 
-      <h1 className="intro">Hi, I'm Akash </h1>
+      <h1 className="intro"> Hi, I'm <span>Akash Nelwade</span></h1>
       <h2>Java Full Stack Developer</h2>
 
       <p className="tagline">
-        Building scalable web applications using React & Spring Boot.
-        Passionate about backend logic, clean architecture, and solving real-world problems.
+        Java Full Stack Developer specializing in Spring Boot, React.js, REST APIs,
+         and secure backend systems. Passionate about building scalable, maintainable, 
+         and user-focused web applications.
       </p>
 
       <div className="highlights">
-        <span>⚡ 3 Projects</span>
-        <span>☕ Java & Spring Boot</span>
-        <span>⚛ React SPA Developer</span>
-        <span>🎯 Full Stack & Backend Roles</span>
+        <span>3 Full Stack Projects</span>
+        <span>Spring Boot Backend</span>
+        <span>React.js Frontend</span>
+        <span>REST API Development</span>
+        <span>JWT Authentication</span>
+        <span> MySQL Database</span>
       </div>
 
       <div className="home-buttons">

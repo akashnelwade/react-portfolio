@@ -9,58 +9,124 @@ export default function Projects() {
 
         <div className="projects-grid">
 
-          <div className="project-card">
-            <h3>Student Management System</h3>
-              <p className="tech">
-                Full Stack Java • HTML • CSS • JavaScript • Servlets • JSP • JDBC • MySQL
-              </p>
-                 <p>
-                    A full-stack web application developed using Java EE technologies to manage
-                    student academic records. Implements secure login, role-based access,
-                    and complete CRUD operations for student data using Servlets, JSP,
-                    JDBC, and MySQL database integration.
-                 </p>
-          </div>
+          {/* NextCartX */}
 
-          <div className="project-card">
-            <h3>Task Management System (REST API)</h3>
-              <p className="tech">
-                Spring Boot • MySQL • JPA • Hibernate • REST API
-              </p>
-                 <p>
-                     A backend RESTful API built using Spring Boot for managing tasks with
-                     secure and scalable architecture. Implements CRUD operations,
-                     database interaction using JPA/Hibernate, and structured API endpoints
-                     tested via Postman.
-                 </p>
-          </div>
+<div className="project-card">
 
-          <div className="project-card">
-           <h3>Bank Management System</h3>
-             <p className="tech">
-              Core Java • OOP • Inheritance • Encapsulation • Polymorphism
-             </p>
-                 <p>
-                   A console-based banking application developed using core Java and
-                   object-oriented programming principles. Demonstrates account management,
-                   transactions, and business logic implementation using inheritance,
-                   encapsulation, and polymorphism.
-                </p>
-          </div>
+  <h3>🛒 NextCartX</h3>
 
-          <div className="project-card">
-           <h3>Akash Port-folio</h3>
-             <p className="tech">
-              • React.js and .................
-             </p>
-                 <p>
-                   A console-based banking application developed using core Java and
-                   object-oriented programming principles. Demonstrates account management,
-                   transactions, and business logic implementation using inheritance,
-                   encapsulation, and polymorphism.
-                </p>
-          </div>
-          
+  <p className="tech">
+    React.js • Spring Boot • MySQL • JWT • REST APIs • Maven
+  </p>
+
+  <ul className="project-features">
+    <li>Modern full-stack e-commerce application.</li>
+    <li>JWT-based user authentication and authorization.</li>
+    <li>Product, cart, and order management modules.</li>
+    <li>RESTful APIs with MySQL database integration.</li>
+    <li>Built using scalable layered architecture.</li>
+  </ul>
+
+  <a
+    href="https://github.com/akashnelwade/NextCartX"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-btn"
+  >
+    🔗 View on GitHub
+  </a>
+
+</div>
+
+
+          {/* PetFinder */}
+
+<div className="project-card">
+
+  <h3>🐾 PetFinder</h3>
+
+  <p className="tech">
+    Spring Boot • Java • MySQL • HTML • CSS • JavaScript • Cloudinary
+  </p>
+
+  <ul className="project-features">
+    <li>Community-driven lost and found pet platform.</li>
+    <li>Create and manage lost or found pet reports.</li>
+    <li>Cloudinary integration for image uploads.</li>
+    <li>Secure CRUD operations with MySQL database.</li>
+    <li>Responsive user-friendly interface.</li>
+  </ul>
+
+  <a
+    href="https://github.com/akashnelwade/PetFinder"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-btn"
+  >
+    🔗 View on GitHub
+  </a>
+
+</div>
+
+
+          {/* SentinelIQ */}
+
+<div className="project-card">
+
+  <h3>🤖 SentinelIQ Chatbot Backend</h3>
+
+  <p className="tech">
+    Spring Boot • MySQL • Redis • Docker • JWT • REST APIs • JUnit
+  </p>
+
+  <ul className="project-features">
+    <li>Production-ready enterprise backend application.</li>
+    <li>Secure JWT authentication and authorization.</li>
+    <li>Redis caching for improved performance.</li>
+    <li>Docker containerization and unit testing.</li>
+    <li>REST APIs with layered architecture.</li>
+  </ul>
+
+  <a
+    href="https://github.com/akashnelwade/SentinelIQ-Chatbot-Backend"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-btn"
+  >
+    🔗 View on GitHub
+  </a>
+
+</div>
+
+
+          {/* Bank Management System */}
+
+<div className="project-card">
+
+  <h3>🏦 Bank Management System</h3>
+
+  <p className="tech">
+    Core Java • OOP • Exception Handling • Collections • File Handling
+  </p>
+
+  <ul className="project-features">
+    <li>Console-based banking application in Core Java.</li>
+    <li>Implements OOP principles and modular design.</li>
+    <li>Supports account and transaction management.</li>
+    <li>Robust exception handling for reliable operations.</li>
+    <li>Demonstrates clean business logic implementation.</li>
+  </ul>
+
+  <a
+    href="https://github.com/akashnelwade/bank-account-management-system"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-btn"
+  >
+    🔗 View on GitHub
+  </a>
+
+</div>
 
         </div>
 

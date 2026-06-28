@@ -3,18 +3,99 @@ import '../styles/skills.css'
 /* Skills Data (separate logic from UI) */
 const skillsData = [
   {
-    category: "Frontend",
-    skills: ["React.js", "HTML", "CSS", "JavaScript"]
+    category: "Programming Languages",
+    skills: [
+      "Java",
+      "JavaScript",
+      "SQL"
+    ]
   },
+
+  {
+    category: "Frontend",
+    skills: [
+      "React.js",
+      "HTML5",
+      "CSS3",
+      "Bootstrap",
+    ]
+  },
+
   {
     category: "Backend",
-    skills: ["Java", "Spring Boot"]
+    skills: [
+      "Spring Boot",
+      "Spring MVC",
+      "Spring Security",
+      "REST APIs",
+      "Servlets",
+      "JSP",
+      "JDBC",
+      "Hibernate",
+      "JPA",
+      "Maven"
+    ]
   },
+
   {
-    category: "Database",
-    skills: ["MySQL"]
+    category: "Authentication & Security",
+    skills: [
+      "JWT Authentication",
+      "Role-Based Access Control (RBAC)",
+      "Password Encryption",
+      "Authentication",
+      "Authorization",
+      "Input Validation"
+    ]
+  },
+
+  {
+    category: "Database & Caching",
+    skills: [
+      "MySQL",
+      "Redis",
+      "SQL Queries",
+      "Database Design"
+    ]
+  },
+
+  {
+    category: "Testing",
+    skills: [
+      "JUnit 5",
+      "Mockito",
+      "Unit Testing",
+      "Postman API Testing"
+    ]
+  },
+
+  {
+    category: "DevOps & Tools",
+    skills: [
+      "Git",
+      "GitHub",
+      "Docker",
+      "VS Code",
+      "IntelliJ IDEA",
+      "Eclipse",
+      "Apache Tomcat"
+    ]
+  },
+
+  {
+    category: "Software Engineering Concepts",
+    skills: [
+      "Object-Oriented Programming",
+      "Data Structures",
+      "Collections Framework",
+      "Exception Handling",
+      "Global Exception Handling",
+      "MVC and Layered Architecture",
+      "Dependency Injection",
+      "CRUD Operations"
+    ]
   }
-]
+];
 
 export default function Skills() {
   return (
